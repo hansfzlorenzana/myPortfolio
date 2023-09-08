@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.b76accbb.chunk.css",
-    "main.js": "/static/js/main.9f1b1b8e.chunk.js",
-    "main.js.map": "/static/js/main.9f1b1b8e.chunk.js.map",
+    "main.js": "/static/js/main.2d358d6f.chunk.js",
+    "main.js.map": "/static/js/main.2d358d6f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2b44e8ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.2b44e8ad.js.map",
-    "static/js/2.80b6ebe6.chunk.js": "/static/js/2.80b6ebe6.chunk.js",
-    "static/js/2.80b6ebe6.chunk.js.map": "/static/js/2.80b6ebe6.chunk.js.map",
+    "static/js/2.77e566aa.chunk.js": "/static/js/2.77e566aa.chunk.js",
+    "static/js/2.77e566aa.chunk.js.map": "/static/js/2.77e566aa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d2af954f9ae03886fbd51cce7ef57a69.js": "/precache-manifest.d2af954f9ae03886fbd51cce7ef57a69.js",
+    "precache-manifest.97bba80ab1cbe9f32e835024956a21f5.js": "/precache-manifest.97bba80ab1cbe9f32e835024956a21f5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.b76accbb.chunk.css.map": "/static/css/main.b76accbb.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/static/media/address_image.16559172.svg",
     "static/media/animated_ashutosh.png": "/static/media/animated_ashutosh.eaf02c2d.png",
     "static/media/animated_logo.svg": "/static/media/animated_logo.dcd6dee2.svg",
+    "static/media/automation.svg": "/static/media/automation.f53dae67.svg",
     "static/media/blogs_image.svg": "/static/media/blogs_image.058eca4c.svg",
     "static/media/cloud_infrastructure.svg": "/static/media/cloud_infrastructure.cacbc42b.svg",
     "static/media/codeInLogo.png": "/static/media/codeInLogo.fee92c18.png",
+    "static/media/comptia_logo.png": "/static/media/comptia_logo.956ecff3.png",
     "static/media/contactMail.png": "/static/media/contactMail.5f915405.png",
     "static/media/covalent_logo.png": "/static/media/covalent_logo.3b06c781.png",
     "static/media/covalentph_logo.jpeg": "/static/media/covalentph_logo.bb4d7211.jpeg",
@@ -46,6 +48,7 @@
     "static/media/jsFramework.svg": "/static/media/jsFramework.5b4a6449.svg",
     "static/media/logo_portfolio.svg": "/static/media/logo_portfolio.53374e26.svg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.83ac24fb.svg",
+    "static/media/maxim_logo.png": "/static/media/maxim_logo.1f43bf2f.png",
     "static/media/me.jpeg": "/static/media/me.aae95630.jpeg",
     "static/media/muffito_logo.png": "/static/media/muffito_logo.069938a8.png",
     "static/media/nptel_logo.png": "/static/media/nptel_logo.95a12a2b.png",
@@ -66,8 +69,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2b44e8ad.js",
-    "static/js/2.80b6ebe6.chunk.js",
+    "static/js/2.77e566aa.chunk.js",
     "static/css/main.b76accbb.chunk.css",
-    "static/js/main.9f1b1b8e.chunk.js"
+    "static/js/main.2d358d6f.chunk.js"
   ]
 }
