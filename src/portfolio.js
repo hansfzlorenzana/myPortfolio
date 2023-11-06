@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Hans FZ Portfolio",
   description:
-    "A data-driven enthusiast who transforms data into valuable insights, delivering impactful solutions to complex business challenges through innovative and scalable end-to-end approaches.",
+    "A data-driven individual who transforms complex data into actionable insights, offering innovative end-to-end solutions for business challenges.",
   og: {
     title: "Hans FZ Lorenzana Portfolio",
     type: "website",
@@ -23,11 +23,11 @@ const greeting = {
   logo_name: "Hans FZ Lorenzana",
   nickname: "Zoren_X",
   subTitle:
-    "A data-driven individual who transforms data into valuable insights, delivering impactful solutions to complex business challenges through innovative and scalable end-to-end approaches.",
+    "A data-driven individual who transforms complex data into actionable insights, offering innovative end-to-end solutions for business challenges.",
   resumeLink:
-    "https://drive.google.com/file/d/1xZ6OcYN6hG6r_5LZSN6XZJJCwUsQrQAB/view?usp=sharing",
-  portfolio_repository: "https://github.io/hansfzlorenzana/myPortfolio",
-  githubProfile: "https://github.io/hansfzlorenzana",
+    "https://drive.google.com/file/d/1eX_F6cc_WNGAtBve4HBtJe7dW-BbAmGu/view?usp=sharing",
+  portfolio_repository: "https://github.com/hansfzlorenzana/myPortfolio",
+  githubProfile: "https://github.com/hansfzlorenzana",
 };
 
 const socialMediaLinks = [
@@ -96,9 +96,9 @@ const skills = {
       title: "Data Analytics",
       fileName: "DataAnalyticsImg",
       skills: [
-        "⚡ Gathering, cleaning, and preprocessing data from various sources to ensure its quality and suitability for analysis",
-        "⚡ Hands-on experience in analyzing and extracting insights from visual and text data ",
-        "⚡ Application of statistical methods to identify patterns, relationships, and trends in data, providing insights and supporting decision making",
+        "⚡ Expertise in gathering, cleaning, and preparing data from diverse sources for analysis, ensuring data quality and consistency.",
+        "⚡ Hands-on experience in extracting actionable insights from data, using statistical methods and visualizations to uncover patterns and support decision-making",
+        "⚡ Applying analytics to provide data-driven insights, aiding in informed decision-making for improved strategies and outcomes.",
       ],
       softwareSkills: [
         {
@@ -201,6 +201,38 @@ const skills = {
       ],
       softwareSkills: [
         {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "logos:git",
+          style: {
+            backgroundColor: "transparent",
+            color: "#FF6F00",
+          },
+        },
+        {
+          skillName: "Anaconda",
+          fontAwesomeClassname: "devicon:anaconda",
+          style: {
+            backgroundColor: "transparent",
+            color: "#FF6F00",
+          },
+        },
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "devicon:pandas-wordmark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#FF6F00",
+          },
+        },
+        {
           skillName: "Tensorflow",
           fontAwesomeClassname: "logos-tensorflow",
           style: {
@@ -257,8 +289,8 @@ const skills = {
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "HuggingFace",
+          fontAwesomeClassname: "fluent-emoji-flat:hugging-face",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -270,11 +302,19 @@ const skills = {
       title: "Blockchain and Web3",
       fileName: "BlockchainImg",
       skills: [
-        "⚡ Developing and deploying DApps on different blockchain platforms",
-        "⚡ Running nodes and validating networks",
-        "⚡ Analyzing deep and granular blockchain data",
+        "⚡ Creating and deploying smart contracts on blockchain platforms like Ethereum, enabling trustless transactions and automation.",
+        "⚡ Integrating Web3 technologies into web applications to enable interactions with blockchain networks and DApps, enhancing user experiences.",
+        "⚡ Analyzing deep and granular blockchain data using Dune Analytics, Arkham, The Graph and Covalent",
+        "⚡ Running validator nodes and testing out 'testnets' of various blockchain networks"
       ],
       softwareSkills: [
+        {
+          skillName: "Ethereum",
+          fontAwesomeClassname: "logos:ethereum",
+          style: {
+            color: "#363636",
+          },
+        },
         {
           skillName: "Solidity",
           fontAwesomeClassname: "logos:solidity",
@@ -337,8 +377,8 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Designing and optimizing database",
+        "⚡ Creating complete web applications from front-end to back-end, ensuring seamless user experiences.",
+        "⚡ Optimizing code, database queries, and server configurations for fast and efficient web application performance.",
       ],
       softwareSkills: [
         {
@@ -370,16 +410,51 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        // {
-        //   skillName: "ReactJS",
-        //   fontAwesomeClassname: "simple-icons:react",
-        //   style: {
-        //     color: "#61DAFB",
-        //   },
-        // },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "logos:nodejs",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "SQL",
+          fontAwesomeClassname: "logos:mysql",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "logos:git",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Heroku",
+          fontAwesomeClassname: "devicon:heroku-wordmark",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Digital Ocean",
+          fontAwesomeClassname: "logos:digital-ocean",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "logos:docker-icon",
           style: {
             color: "#339933",
           },
@@ -405,13 +480,27 @@ const skills = {
       fileName: "ProjectMgmtImg",
       skills: [
         "⚡ Planning, tracking and managing projects effectively using Scrum and Kanban",
-        "⚡ Communicating with the stakeholders such as negotiations",
-        "⚡ Anticipating and mitigating risks that may impact the project",
+        "⚡ Facilitating effective team collaboration, assigning tasks, and monitoring progress to keep projects on track.",
+        "⚡ Establishing key performance indicators (KPIs) and metrics to measure project progress and quality, making data-driven decisions to achieve project success.",
       ],
       softwareSkills: [
         {
           skillName: "ClickUp",
           fontAwesomeClassname: "simple-icons:clickup",
+          style: {
+            color: "#7B68EE",
+          },
+        },
+        {
+          skillName: "Asana",
+          fontAwesomeClassname: "logos:asana-icon",
+          style: {
+            color: "#7B68EE",
+          },
+        },
+        {
+          skillName: "Trello",
+          fontAwesomeClassname: "logos:trello",
           style: {
             color: "#7B68EE",
           },
@@ -439,74 +528,45 @@ const skills = {
         },
       ],
     },
-    // {
-    //   title: "Cloud Infra-Architecture",
-    //   fileName: "CloudInfraImg",
-    //   skills: [
-    //     "⚡ Experience working on multiple cloud platforms",
-    //     "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-    //     "⚡ Deploying deep learning models on cloud to use on mobile devices",
-    //     "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "GCP",
-    //       fontAwesomeClassname: "simple-icons:googlecloud",
-    //       style: {
-    //         color: "#4285F4",
-    //       },
-    //     },
-    //     {
-    //       skillName: "AWS",
-    //       fontAwesomeClassname: "simple-icons:amazonaws",
-    //       style: {
-    //         color: "#FF9900",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Azure",
-    //       fontAwesomeClassname: "simple-icons:microsoftazure",
-    //       style: {
-    //         color: "#0089D6",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Firebase",
-    //       fontAwesomeClassname: "simple-icons:firebase",
-    //       style: {
-    //         color: "#FFCA28",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PostgreSQL",
-    //       fontAwesomeClassname: "simple-icons:postgresql",
-    //       style: {
-    //         color: "#336791",
-    //       },
-    //     },
-    //     {
-    //       skillName: "MongoDB",
-    //       fontAwesomeClassname: "simple-icons:mongodb",
-    //       style: {
-    //         color: "#47A248",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Docker",
-    //       fontAwesomeClassname: "simple-icons:docker",
-    //       style: {
-    //         color: "#1488C6",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Kubernetes",
-    //       fontAwesomeClassname: "simple-icons:kubernetes",
-    //       style: {
-    //         color: "#326CE5",
-    //       },
-    //     },
-    //   ],
-    // },
+    {
+      title: "Automation",
+      fileName: "AutomateImg",
+      skills: [
+        "⚡ Develop and implement automation solutions to streamline repetitive tasks, reducing manual effort and human error.",
+        "⚡ Create automated workflows and integrate various tools and systems to enhance efficiency and data flow.",
+        "⚡ Craft tailored automation strategies for precision, efficiency, and agility, driving remarkable results through data-driven insights.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "devicon:python-wordmark",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "Bash SH",
+          fontAwesomeClassname: "logos:bash",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Cron Jobs",
+          fontAwesomeClassname: "eos-icons:cronjob",
+          style: {
+            color: "#0089D6",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
+      ],
+    },
     // {
     //   title: "UI/UX Design",
     //   fileName: "DesignImg",
@@ -557,38 +617,50 @@ const competitiveSites = {
       iconifyClassname: "simple-icons:leetcode",
       style: {
         color: "#F79F1B",
+        fontsize: "16px",
       },
       profileLink: "",
     },
     {
-      siteName: "HackerRank",
+      siteName: "Hacker Rank",
       iconifyClassname: "simple-icons:hackerrank",
       style: {
-        color: "#2EC866",
+        color: "#000000",
       },
       profileLink: "",
     },
     {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
+      siteName: "Coursera",
+      iconifyClassname: "logos:coursera",
+      style: {
+        color: "#2EC866",
+        fontSize: "16px",
+      },
+      profileLink: "",
+    },
+    {
+      siteName: "Google",
+      iconifyClassname: "devicon:google",
       style: {
         color: "#5B4638",
+        fontsize: "16px",
       },
       profileLink: "",
     },
-    // {
-    //   siteName: "Codeforces",
-    //   iconifyClassname: "simple-icons:codeforces",
-    //   style: {
-    //     color: "#1F8ACB",
-    //   },
-    //   profileLink: "",
-    // },
     {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
+      siteName: "IBM",
+      iconifyClassname: "simple-icons:ibm",
+      style: {
+        color: "#1F8ACB",
+      },
+      profileLink: "",
+    },
+    {
+      siteName: "Microsoft",
+      iconifyClassname: "logos:microsoft-icon",
       style: {
         color: "#323754",
+        fontsize: "10px",
       },
       profileLink: "",
     },
@@ -600,11 +672,32 @@ const competitiveSites = {
       },
       profileLink: "",
     },
+    {
+      siteName: "Cisco",
+      iconifyClassname: "simple-icons:cisco",
+      style: {
+        color: "#20BEFF",
+      },
+      profileLink: "",
+    },
   ],
 };
 
 const degrees = {
   degrees: [
+    {
+      title: "University of the Cordilleras",
+      subtitle: "Bachelor of Science in Computer Science",
+      logo_path: "uc_logo.png",
+      alt_name: "UC Baguio",
+      duration: "2020 - 2023",
+      descriptions: [
+        "⚡ I have taken variety of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
+        "⚡ Apart from this, I have also done research assistant-ship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
+        "⚡ Thesis: Sign-Language Interpreter using AI and ML",
+      ],
+      website_link: "https://www.uc-bcf.edu.ph/",
+    },
     {
       title: "Saint Louis University",
       subtitle: "Bachelor of Science in Management Accounting",
@@ -614,21 +707,9 @@ const degrees = {
       descriptions: [
         "⚡ I have studied basic accounting related subjects such as micro and macroeconomic theories, business statistics, and accounting fundamentals",
         "⚡ Apart from this, I have done courses on Financial Accounting & Reporting, Cost Accounting, Taxation, Auditing, and IT Concepts",
+        "⚡ Thesis: The Role of Big Data in Financial Analysis",
       ],
       website_link: "https://www.slu.edu.ph/",
-    },
-    {
-      title: "University of the Cordilleras",
-      subtitle: "Bachelor of Science in Computer Science",
-      logo_path: "uc_logo.png",
-      alt_name: "UC Baguio",
-      duration: "2020 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.uc-bcf.edu.ph/",
     },
     // {
     //   title: "Imperial College London",
@@ -664,11 +745,51 @@ const certifications = {
       color_code: "#0C9D5899", //"#00000099",
     },
     {
-      title: "IT Automation with Python",
+      title: "Automation with Python",
       subtitle: "Google",
       logo_path: "google_logo.png",
       certificate_link: "",
       alt_name: "Google",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "Data Analyst Professional",
+      subtitle: "IBM",
+      logo_path: "ibm_logo.png",
+      certificate_link: "",
+      alt_name: "IBM",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "Power BI Data Analyst Professional",
+      subtitle: "Microsoft",
+      logo_path: "microsoft_logo.png",
+      certificate_link: "",
+      alt_name: "Microsoft",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "CompTIA Data Analytics Plus",
+      subtitle: "CompTIA",
+      logo_path: "comptia_logo.png",
+      certificate_link: "",
+      alt_name: "CompTIA",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "Covalent Bootcamp 1 - Data Alchemist",
+      subtitle: "Covalent",
+      logo_path: "covalent_logo.png",
+      certificate_link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76538441175747641219265072182160044491633700610231652884771900203061481570305/",
+      alt_name: "Covalent",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "Covalent Bootcamp 2 - 2nd Place",
+      subtitle: "Covalent",
+      logo_path: "covalent_logo.png",
+      certificate_link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76538441175747641219265072182160044491633700610231652884771900252539504820225/",
+      alt_name: "Covalent",
       color_code: "#0C9D5899",
     },
   ],
@@ -679,12 +800,38 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with some evolving Web3 startups as a data analyst and a community manager. I have also worked with BPO companies where I enhanced my customer support, leadership and program management roles. I am currently looking for a job where I can expand my expertise and share my skills in the benefit of the company.",
+    "With a background spanning customer service, data analysis, and blockchain technology, I've evolved into a versatile professional. As co-founder and guild coordinator at Covalent, I've taken a leadership role in fostering community engagement, while my current position as a data researcher and full stack developer allows me to leverage expertise in cloud automation and data-driven solutions.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
+        {
+          title: "Data Researcher and Full Stack Developer with Expertise in Cloud Automation",
+          company: "Maxim LLC",
+          company_url: "https://maximumtruth.substack.com/",
+          logo_path: "maxim_logo.png",
+          duration: "Feb 2023 - present",
+          location: "Remote - New York, USA",
+          description: `
+          As a Data Researcher, I sourced, dissected, and delivered valuable insights. My data sleuthing enhanced Maxim LLC's analytical arsenal, fueling their insightful blogs.
+          
+          Simultaneously, I worked as a Full Stack Developer. Crafting the digital frontier, I created websites from the ground up. Armed with both front-end and back-end skills, I sculpted seamless UI/UX for the projects. My adeptness extends to cloud automation and VPS scripting, weaving efficiency into every project.
+            
+          I've also coded HomicideMapped, charted AI biases in the AI Bias Tracker website, and championed projects where data meets development.`,
+          color: "#0879bf",
+        },
+        {
+          title: "Co-Founder & Guild Coordinator",
+          company: "Covalent - DAO",
+          company_url: "https://www.covalenthq.com/",
+          logo_path: "covalent_logo.png",
+          duration: "Aug 2021 - Dec 2021",
+          location: "Remote - Burnaby, Canada",
+          description:
+            "As a co-founder of Covalent DAO, I demonstrated exceptional leadership by spearheading various guilds, effectively managing finances, and actively promoting community engagement through innovative activities. My dynamic approach and commitment were instrumental in shaping the DAO's mission to empower the broader blockchain community within the Covalent ecosystem.",
+          color: "#0879bf",
+        },
         {
           title: "Junior Data Analyst",
           company: "Covalent",
@@ -693,7 +840,7 @@ const experience = {
           duration: "Nov 2020 - Dec 2022",
           location: "Remote - Burnaby, Canada",
           description:
-            "I have worked with providing data insights from different blockchain networks such as Ethereum, Polygon and more. The projects involved finding new trends and pinpointing problems within the networks that benefits our clients. Our team developed the RRR(Reach, Retention, Revenue) model which is our basis for Web3 data analysis. ",
+            "I have worked with providing data insights from different blockchain networks such as Ethereum, Polygon, Base, ZKSync and more. The projects involved finding new trends and pinpointing problems within the networks that benefits our clients. Our team developed the RRR(Reach, Retention, Revenue) model which is our basis for Web3 data analysis. ",
           color: "#0879bf",
         },
         {

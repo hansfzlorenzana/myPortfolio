@@ -2,7 +2,7 @@
 
 .header {
   display: block;
-  max-width: 90%;
+  max-width: 95%;
   padding: 20px 10px;
   margin: 0px auto;
 }
@@ -27,7 +27,8 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  /* background-color: #A6E1FA; */
+  /* background-color: #868e96; */
+  border-radius: 20px;
 }
 
 .header .logo {
@@ -103,7 +104,7 @@
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 370px;
+  max-height: 430px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {

@@ -10,6 +10,7 @@ import DesignImg from "./DesignImg";
 import BlockchainImg from "./BlockchainImg";
 import DataAnalyticsImg from "./DataAnalyticsImg";
 import ProjectMgmtImg from "./ProjectMgmtImg";
+import AutomateImg from "./AutomateImg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
@@ -24,6 +25,8 @@ function GetSkillSvg(props) {
     return <DataAnalyticsImg theme={props.theme} />;
   else if (props.fileName === "ProjectMgmtImg")
     return <ProjectMgmtImg theme={props.theme} />;
+  else if (props.fileName === "AutomateImg")
+    return <AutomateImg theme={props.theme} />;
   return <DesignImg theme={props.theme} />;
 }
 

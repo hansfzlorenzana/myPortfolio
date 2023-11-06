@@ -4,6 +4,7 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
+import Button from "../../components/button/Button";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -40,7 +41,7 @@ class Header extends Component {
                 <NavLink
                   to="/home"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{ fontWeight: "bold",textDecoration: 'underline'}}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
@@ -52,7 +53,7 @@ class Header extends Component {
                 <NavLink
                   to="/education"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{ fontWeight: "bold",textDecoration: 'underline'}}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
@@ -64,7 +65,7 @@ class Header extends Component {
                 <NavLink
                   to="/experience"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{ fontWeight: "bold",textDecoration: 'underline'}}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
@@ -76,7 +77,7 @@ class Header extends Component {
                 <NavLink
                   to="/projects"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{ fontWeight: "bold",textDecoration: 'underline'}}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
@@ -88,7 +89,7 @@ class Header extends Component {
                 <NavLink
                   to="/opensource"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{ fontWeight: "bold",textDecoration: 'underline'}}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
@@ -100,13 +101,22 @@ class Header extends Component {
                 <NavLink
                   to="/contact"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{ fontWeight: "bold",textDecoration: 'underline'}}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Contact Me
                 </NavLink>
+              </li>
+              <li>
+              <Button
+                  text="Resume"
+                  newTab={true}
+                  href="https://drive.google.com/file/d/1eX_F6cc_WNGAtBve4HBtJe7dW-BbAmGu/view?usp=sharing"
+                  theme={theme}
+                  className="resume-button"
+                />
               </li>
             </ul>
           </header>
